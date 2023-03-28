@@ -1,16 +1,26 @@
 body{
     margin: 0;
+    padding: 0;
+    background-color: white;
+    color:  #434242;
+    font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url("../imgs/background2.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+
+
 }
 #nav {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(42, 75, 137, 0.85);
     padding: 10px;
     display: flex;
     justify-content: center;
     height: 35px;
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
 }
 .nav-link{
-    color: #E8E8ED;
+    color: #dadae1;
     text-decoration: none;
     margin: 10px;
     margin-inline: 30px;
@@ -22,4 +32,57 @@ body{
 #logo {
     transform: scale(1);
     margin-inline-end: 30px;
+}
+
+.slider {
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 350px;
+    padding: 0;
+    border-radius: 15px;
+    border: 3px solid rgba(28, 44, 73, 0.6);
+}
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 500%;
+    height: inherit;
+    animation: cambio_img 20s infinite alternate linear;
+}
+.slider li {
+    list-style: none;
+    width: 100%;
+    height: inherit;
+}
+.slider img {
+    width: inherit;
+    height: 400px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 0px;
+
+}
+
+@keyframes cambio_img {
+    0% { margin-left: 0; }
+    15% { margin-left: 0; }
+
+    20% { margin-left: -100%; }
+    35% { margin-left: -100%; }
+
+    40% { margin-left: -200%; }
+    55% { margin-left: -200%; }
+
+    60% { margin-left: -300%; }
+    75% { margin-left: -300%; }
+
+    80% { margin-left: -400%; }
+    100% { margin-left: -400%; }
+}
+
+h1{
+    text-align: center;
 }
