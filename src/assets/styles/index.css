@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+#nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.nav-link{
+    color: #E8E8ED;
+    text-decoration: none;
+    margin: 10px;
+    margin-inline: 30px;
+    display: inline-block;
+}
+.nav-link:hover{
+    color: white;
+}
+#logo {
+    transform: scale(1);
+    margin-inline-end: 30px;
+}
