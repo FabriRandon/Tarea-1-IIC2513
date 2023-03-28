@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin-top: 75px;
     padding: 0;
     background-color: white;
     color:  #434242;
@@ -18,6 +19,9 @@ body{
     height: 35px;
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .nav-link{
     color: #dadae1;
