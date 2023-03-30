@@ -13,26 +13,69 @@
     <!-- Al menos una imagen -->
     <!-- Un archivo css con estilos para index.html-->
 
+    <!-- Barra de navegación -->
     <nav id="nav">
         <img src="src/assets/imgs/Logo propiedades braiwls.png" alt="logo" id="logo">
         <a href="#" class="nav-link">Inicio</a>
         <a href="/src/views/about.html" class="nav-link">Acerca de</a>
         <a href="/src/views/site.html" class="nav-link">Propiedades</a>
     </nav>
+    <!-- Titulo del sitio web -->
     <header>
         <h1>Bienvenidos a Propiedades Braiwls</h1>
     </header>
-    <div class="slider">
-        <ul>
-            <li><img src="src/assets/imgs/casa_de_campo.jpg" alt=""></li>
-            <li><img src="src/assets/imgs/casa_la_florida.jpg" alt=""></li>
-            <li><img src="src/assets/imgs/casa_las_condes.jpg" alt=""></li>
-            <li><img src="src/assets/imgs/casa_lo_barnechea.jpg" alt=""></li>
-            <li><img src="src/assets/imgs/casa_vitacura.jpg" alt=""></li>
-        </ul>
-    </div>
-    <footer>
-
+    <!-- Un section que contiene el contenido principal-->
+    <section id="contenido-principal">
+        <!-- Etiquetas aside que hacen el llamado a la acción para que nos contrates-->
+        <aside class="upgrade">
+            <article>
+                <h2>Plan Económico</h2>
+                <p>Para una exposición básica de sus propiedades</p>
+                <p class="precio-plan">2% + IVA</p>
+                <ul class="descripcion-plan">
+                    <li>Evaluación comercial</li>
+                    <li>Exposición en 15 portales</li>
+                    <li>100 corredores vendiendo</li>
+                    <li>Sesión fotográfica</li>
+                    <li>Videomarketing</li>
+                </ul>
+            </article>
+            <div class="zona-boton">
+                <button class="boton-contratar">Contratar</button>
+            </div>
+        </aside>
+        <!-- Slider que presenta imagenes de casas -->
+        <div class="slider">
+            <ul>
+                <li><img src="src/assets/imgs/casa_de_campo.jpg" alt=""></li>
+                <li><img src="src/assets/imgs/casa_la_florida.jpg" alt=""></li>
+                <li><img src="src/assets/imgs/casa_las_condes.jpg" alt=""></li>
+                <li><img src="src/assets/imgs/casa_lo_barnechea.jpg" alt=""></li>
+                <li><img src="src/assets/imgs/casa_vitacura.jpg" alt=""></li>
+            </ul>
+        </div>
+        <!-- Etiquetas aside que hacen el llamado a la acción para que nos contrates-->
+        <aside class="upgrade">
+            <article>
+                <h2>Plan Premium</h2>
+                <p>Para una máxima exposición de sus propiedades</p>
+                <p class="precio-plan">2.5% + IVA</p>
+                <ul class="descripcion-plan">
+                    <li class="premium-item-plan">Evaluación comercial</li>
+                    <li class="premium-item-plan">Exposición en <span>40</span> portales</li>
+                    <li class="premium-item-plan"><span>400</span> corredores vendiendo</li>
+                    <li class="premium-item-plan">Sesión fotográfica</li>
+                    <li class="premium-item-plan">Videomarketing</li>
+                </ul>
+            </article>
+            <div class="zona-boton">
+                <button class="boton-contratar">Contratar</button>
+            </div>
+        </aside>
+    </section>
+    <!-- Footer donde va información relevante sobre nosotros-->
+    <footer id="foot">
+        
     </footer>
 </body>
 </html>
