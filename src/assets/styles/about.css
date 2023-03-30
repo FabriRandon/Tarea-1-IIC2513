@@ -94,6 +94,23 @@ body{
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
+.mision {
+
+    text-align: center;
+    width: 500px;
+    min-width: 160px;
+    margin: 70px auto;
+}
+
+.mision h1 {
+
+    font-size: 30px;
+}
+.mision p {
+    text-align: justify;
+    font-size: 20px;
+}
+
 
 #foot {
     background-color: rgba(42, 75, 137, 0.85);
