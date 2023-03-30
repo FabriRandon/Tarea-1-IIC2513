@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    margin-top: 75px;
+    padding: 0;
+    background-color: white;
+    color:  #434242;
+    font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url("../imgs/background2.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 10em;
+    min-height: 100vh;
+}
+
+#nav {
+    background-color: rgba(42, 75, 137, 0.85);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nav-link{
+    color: #dadae1;
+    text-decoration: none;
+    margin: 10px;
+    margin-inline: 30px;
+    display: inline-block;
+}
+.nav-link:hover{
+    color: white;
+}
+#logo {
+    transform: scale(1);
+    margin-inline-end: 30px;
+}
+
+#foot {
+    background-color: rgba(42, 75, 137, 0.85);
+    width: 100%;
+    margin-top: 100px;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    padding: 1em 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot .box-foot {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+#foot .box-foot p {
+    color: rgb(230, 222, 222);
+}
+#foot .box-foot .logo-foot {
+    width: 130px;
+}
+#foot .box-foot .media-foot {
+    width: 40px;
+    margin-inline: 6px;
+}
