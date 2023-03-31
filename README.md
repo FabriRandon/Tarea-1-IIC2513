@@ -6,5 +6,5 @@ Esta es la tarea 1 del curso IIC2513
 
 ## Puntos importante del enunciado de la tarea
 
-- Un archivo index.html como punto de entrada a su sitio Web: :green_circle:
+- Un archivo index.html como punto de entrada a su sitio Web: :white_check_mark:
     * 
