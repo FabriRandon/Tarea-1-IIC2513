@@ -1,10 +1,10 @@
 # Tarea-1-IIC2513
 Esta es la tarea 1 del curso IIC2513
 
-## Consideraciones generales
-1. 
-
 ## Puntos importante del enunciado de la tarea
+- La temática que se ha elegido es Sitio web de bienes raíces.
+- La navegación es bastante intuitiva, como en cualquier otro sitio.
+- No requiere instalar nada.
 - Se ha seguido la estructura de carpetas sugerida en el enunciado de la tarea.
 - Se ha procurado entregar más de lo solicitado en el enunciado con la finalidad de hacer un trabajo de calidad.
 - Todos los diseños son responsivos y se adaptan bien a todo tipo de tamaños de pantalla.
@@ -19,8 +19,7 @@ Esta es la tarea 1 del curso IIC2513
 Se ha creado un archivo index.
 - Header y footer: :white_check_mark:
 Se ha creado un header y footer no solo para index.html, también para about.html y para site.html
-- Una barra de navegacion que le permita ir de una p ´ agina html a otra (la navegaci ´ on debe ser usando ´
-anchor de HTML): :white_check_mark:
+- Una barra de navegacion que le permita ir de una página html a otra (la navegación debe ser usando anchor de HTML): :white_check_mark:
 Se ha creado una barra de navegación que permite cambiar de página web sin problemas (Incluye el logo de la empresa).
 - Una estructura dada por lo menos por etiquetas (tags) divs. Se espera que puedan usar otros tags como
 section o article: :white_check_mark:
